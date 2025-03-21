@@ -10,13 +10,18 @@ body{
 }
 
 
-
 .container{
     padding-left: 90px;
     padding-right: 90px;
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.subContainer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .topLink{
@@ -35,7 +40,7 @@ body{
 .bigText{
     display: flex;
     justify-content: center;
-    width: 600px;
+    width: 620px;
     margin: 0 auto;
     text-align: center;
     margin-top: 30px;
@@ -112,4 +117,21 @@ h1{
     border: 0.1px solid #c3d0e5;
     border: none;
     cursor: pointer;
+}
+
+.container input{
+    width: 200px;
+    background-color: 0D1117;
+    border: 1px #9ba3b4 solid;
+    border-radius: 4px;
+    height: 28px;
+}
+
+.multiFileContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
 }
